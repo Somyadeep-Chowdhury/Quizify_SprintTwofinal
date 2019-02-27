@@ -22,6 +22,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { CookieService } from 'ngx-cookie-service';
 import { GamedetailsComponent } from './components/gamedetails/gamedetails.component';
 import { AdminpageComponent } from './components/adminpage/adminpage.component';
+import { FooterComponent } from './components/footer/footer.component';
 // import {NgMultiSelectDropDownModule} from 'ng-multiselect-dropdown';
 @NgModule({
   declarations: [ CardsComponent,
@@ -35,7 +36,8 @@ import { AdminpageComponent } from './components/adminpage/adminpage.component';
     QuestionGeneratorComponent,
     HeaderComponent,
     GamedetailsComponent,
-    AdminpageComponent
+    AdminpageComponent,
+    FooterComponent
      ],
      providers: [ CardService, CookieService, GamedetailsService],
 
@@ -63,7 +65,8 @@ import { AdminpageComponent } from './components/adminpage/adminpage.component';
     GameComponent,
     QuestionGeneratorComponent,
     GamedetailsComponent,
-    AdminpageComponent
+    AdminpageComponent,
+    HeaderComponent
    ],
 
 })

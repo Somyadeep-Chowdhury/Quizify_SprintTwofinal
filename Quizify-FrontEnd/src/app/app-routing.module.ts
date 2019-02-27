@@ -30,7 +30,7 @@ const routes: Routes = [
   {path: 'search', component: SearchComponent},
   { path: 'question', component: QuestionGeneratorComponent },
   { path: 'adminpage', component: AdminpageComponent },
-    { path: '**', component: HeaderComponent
+    { path: '**', component: CardsComponent
   }
 
 ];

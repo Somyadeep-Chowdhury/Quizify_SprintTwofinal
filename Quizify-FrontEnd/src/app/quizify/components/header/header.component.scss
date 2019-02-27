@@ -7,8 +7,8 @@ header h1{
  }
  header .logo{
    
-  top:0%;
-  left: 0%;
+  margin-top: -20px;
+  margin-left: -100px;
   bottom: 200px;
 }
  .id{
@@ -18,8 +18,8 @@ header h1{
  header{
   z-index: 1;
   width: 100%;
-  background-color:black;
- // background-image: url('src/app/quizify/2.jpg');
+  background-color: rgb(3, 3, 3);
+  // background-image: url('src/app/quizify/2.jpg');
 
   position: fixed;
   height: 80px;
@@ -27,7 +27,10 @@ header h1{
   left: 0%;
   bottom: 200px;
  }
- 
+#title{
+  left: -500px;
+}
+
  .wrap
  {
   float: right;
@@ -85,8 +88,8 @@ header h1{
  {
  position: relative;
  // float: right;
- top:700px;
- background-color: black;
+ top:730px;
+ background-color: rgb(3, 3, 3);
  width: 1533px;
  height: 75px;
  right: 0px;
@@ -96,17 +99,27 @@ header h1{
  h1
  {
  color:  white;
- float: right;
  padding-right: 20px;
- font-size: 24px;
+ font-size: 40px;
+ margin-top: 30px;
  }
  a
  {
  float: left;
  padding-top: 20px;
- padding-left: 35px;
- top: 500px;
+ padding-left: 100px;
+ top: 550px;
+ text-align: center;
  color:  white;
+ text-decoration: none;
+font-size: 24px;
+ }
+ h3
+ {
+ color:  white;
+ padding-right: 600px;
+ float: left;
+ font-size: 20px;
  }
  // .wrap {
  //   top: 10px;

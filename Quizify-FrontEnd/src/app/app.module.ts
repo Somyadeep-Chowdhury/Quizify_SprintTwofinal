@@ -17,11 +17,13 @@ import { FormsModule } from '@angular/forms';
 import { QuestionService } from './quizify/services/question.service';
 import { GameserviceService } from './quizify/services/gameservice.service';
 import { RouterModule } from '@angular/router';
+import { HeaderComponent } from './quizify/components/header/header.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    // HeaderComponent
   ],
   imports: [
     BrowserModule,
@@ -32,7 +34,7 @@ import { RouterModule } from '@angular/router';
     BrowserAnimationsModule,
     HttpClientModule,
     QuizifyMaterialModule
-    ],
+      ],
   providers: [QuestionService,
   GameserviceService] ,
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
