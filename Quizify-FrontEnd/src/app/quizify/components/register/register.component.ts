@@ -51,10 +51,10 @@ export class RegisterComponent implements OnInit {
   this.register = new Register();
   this.register.userName = this.userName;
   this.register.password = this.password;
-  this.register.interests = this.interests;
+  // this.register.interests = this.interests;
   this.register.gender = this.gender;
   this.register.emailId = this.emailId;
-  this.register.confirmPassword = this.confirmPassword;
+  // this.register.confirmPassword = this.confirmPassword;
    console.log(this.register);
   this.value1 = event.target.value;
   this.regserv.addUser(this.register).subscribe((data: any) => {

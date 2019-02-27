@@ -22,11 +22,12 @@ export class RegisterService {
    //  }
 
    addUser(register: Register) {
-      this.url = 'http://13.232.243.68:8091/api/v1/user/';
-         this. http.get(this.url).subscribe(resp => {
-            this.response = resp;
-         });
-         return this.http.post(this.url + '' , register, {observe: 'response', responseType: 'text' });
+      this.url = 'http://13.232.243.68:8999/api/v1/user/';
+         // this. http.get(this.url).subscribe(resp => {
+         //    this.response = resp;
+         // });
+         console.log(register);
+         return this.http.post(this.url , register, {observe: 'response', responseType: 'text' });
    }
 }
 
